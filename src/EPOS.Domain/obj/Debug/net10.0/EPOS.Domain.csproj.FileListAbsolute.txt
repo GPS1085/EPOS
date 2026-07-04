@@ -1,0 +1,11 @@
+D:\Projects\EPOS\src\EPOS.Domain\bin\Debug\net10.0\EPOS.Domain.deps.json
+D:\Projects\EPOS\src\EPOS.Domain\bin\Debug\net10.0\EPOS.Domain.dll
+D:\Projects\EPOS\src\EPOS.Domain\bin\Debug\net10.0\EPOS.Domain.pdb
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.AssemblyInfoInputs.cache
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.AssemblyInfo.cs
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.dll
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\refint\EPOS.Domain.dll
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\EPOS.Domain.pdb
+D:\Projects\EPOS\src\EPOS.Domain\obj\Debug\net10.0\ref\EPOS.Domain.dll

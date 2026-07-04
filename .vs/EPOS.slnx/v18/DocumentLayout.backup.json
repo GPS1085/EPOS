@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\EPOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|d:\\projects\\epos\\src\\epos.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|solutionrelative:src\\epos.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|d:\\projects\\epos\\src\\epos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|solutionrelative:src\\epos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|d:\\projects\\epos\\src\\epos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CBC1336-07BA-4412-BB9D-7688AAF66B23}|src\\EPOS.API\\EPOS.API.csproj|solutionrelative:src\\epos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08EEEB3B-437B-4A18-A151-8D9F3C5B90FB}|src\\EPOS.Persistence\\EPOS.Persistence.csproj|d:\\projects\\epos\\src\\epos.persistence\\context\\eposdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08EEEB3B-437B-4A18-A151-8D9F3C5B90FB}|src\\EPOS.Persistence\\EPOS.Persistence.csproj|solutionrelative:src\\epos.persistence\\context\\eposdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B408C60-F3B8-4EE0-8F45-EDBC079B107C}|src\\EPOS.Domain\\EPOS.Domain.csproj|d:\\projects\\epos\\src\\epos.domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B408C60-F3B8-4EE0-8F45-EDBC079B107C}|src\\EPOS.Domain\\EPOS.Domain.csproj|solutionrelative:src\\epos.domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B408C60-F3B8-4EE0-8F45-EDBC079B107C}|src\\EPOS.Domain\\EPOS.Domain.csproj|d:\\projects\\epos\\src\\epos.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B408C60-F3B8-4EE0-8F45-EDBC079B107C}|src\\EPOS.Domain\\EPOS.Domain.csproj|solutionrelative:src\\epos.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\EPOS.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\EPOS.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-04T05:14:34.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EPOS.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.API\\Program.cs",
+              "RelativeToolTip": "src\\EPOS.API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:13:53.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\EPOS.API\\appsettings.json",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.API\\appsettings.json",
+              "RelativeToolTip": "src\\EPOS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-04T05:12:58.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EPOSDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.Persistence\\Context\\EPOSDbContext.cs",
+              "RelativeDocumentMoniker": "src\\EPOS.Persistence\\Context\\EPOSDbContext.cs",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.Persistence\\Context\\EPOSDbContext.cs",
+              "RelativeToolTip": "src\\EPOS.Persistence\\Context\\EPOSDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:11:35.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.Domain\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "src\\EPOS.Domain\\Entities\\Organization.cs",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.Domain\\Entities\\Organization.cs",
+              "RelativeToolTip": "src\\EPOS.Domain\\Entities\\Organization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:10:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Projects\\EPOS\\src\\EPOS.Domain\\common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\EPOS.Domain\\common\\BaseEntity.cs",
+              "ToolTip": "D:\\Projects\\EPOS\\src\\EPOS.Domain\\common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\EPOS.Domain\\common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T05:09:35.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

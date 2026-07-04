@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/EPOS.API/EPOS.API.csproj" Id="7cbc1336-07ba-4412-bb9d-7688aaf66b23" />
+  <Project Path="src/EPOS.Application/EPOS.Application.csproj" Id="73b5b1f2-f311-422b-bcd4-65472c685cbf" />
+  <Project Path="src/EPOS.Domain/EPOS.Domain.csproj" Id="5b408c60-f3b8-4ee0-8f45-edbc079b107c" />
+  <Project Path="src/EPOS.Infrastructure/EPOS.Infrastructure.csproj" Id="a9c03974-1c7e-489c-b4a3-4c594a084a87" />
+  <Project Path="src/EPOS.Persistence/EPOS.Persistence.csproj" Id="08eeeb3b-437b-4a18-a151-8d9f3c5b90fb" />
+</Solution>

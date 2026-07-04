@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EPOS.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EPOS.Application": "1.0.0",
+          "EPOS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EPOS.Infrastructure.dll": {}
+        }
+      },
+      "EPOS.Application/1.0.0": {
+        "dependencies": {
+          "EPOS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EPOS.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EPOS.Domain/1.0.0": {
+        "runtime": {
+          "EPOS.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EPOS.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPOS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPOS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@EPOS.API_HostAddress = http://localhost:5144
+
+GET {{EPOS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
