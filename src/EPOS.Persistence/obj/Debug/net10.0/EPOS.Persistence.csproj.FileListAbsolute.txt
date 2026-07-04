@@ -17,3 +17,4 @@ D:\Projects\EPOS\src\EPOS.Persistence\obj\Debug\net10.0\refint\EPOS.Persistence.
 D:\Projects\EPOS\src\EPOS.Persistence\obj\Debug\net10.0\EPOS.Persistence.pdb
 D:\Projects\EPOS\src\EPOS.Persistence\obj\Debug\net10.0\EPOS.Persistence.genruntimeconfig.cache
 D:\Projects\EPOS\src\EPOS.Persistence\obj\Debug\net10.0\ref\EPOS.Persistence.dll
+D:\Projects\EPOS\src\EPOS.Persistence\obj\Debug\net10.0\EPOS.Persistence.sourcelink.json

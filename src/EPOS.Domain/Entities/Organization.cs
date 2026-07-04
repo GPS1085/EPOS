@@ -2,7 +2,7 @@
 
 namespace EPOS.Domain.Entities;
 
-public class Organization : BaseEntity
+public class Organization : AuditableEntity
 {
     public string Name { get; set; } = string.Empty;
 

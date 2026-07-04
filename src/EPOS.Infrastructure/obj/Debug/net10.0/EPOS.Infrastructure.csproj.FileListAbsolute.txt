@@ -15,3 +15,4 @@ D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.d
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\refint\EPOS.Infrastructure.dll
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.pdb
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\ref\EPOS.Infrastructure.dll
+D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.sourcelink.json

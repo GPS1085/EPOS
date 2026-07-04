@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+
+# Build
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini

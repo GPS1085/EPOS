@@ -11,4 +11,6 @@ public class EPOSDbContext : DbContext
     }
 
     public DbSet<Organization> Organizations => Set<Organization>();
+
+    public DbSet<User> Users => Set<User>();
 }
