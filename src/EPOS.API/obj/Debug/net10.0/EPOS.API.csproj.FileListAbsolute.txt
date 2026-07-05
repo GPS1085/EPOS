@@ -1,3 +1,12 @@
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.csproj.AssemblyReference.cache
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.AssemblyInfoInputs.cache
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.AssemblyInfo.cs
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.csproj.CoreCompileInputs.cache
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.sourcelink.json
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\appsettings.Development.json
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\appsettings.json
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.API.staticwebassets.endpoints.json
@@ -7,6 +16,7 @@ D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.API.runtimeconfig.json
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.API.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.API.pdb
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Humanizer.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
@@ -20,6 +30,12 @@ D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Ab
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Mono.TextTemplating.dll
@@ -32,6 +48,7 @@ D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\System.Composition.Convention.dl
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\System.Composition.Hosting.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\System.Composition.Runtime.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\System.Composition.TypedParts.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -105,14 +122,6 @@ D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.Application.pdb
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.Infrastructure.pdb
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.Persistence.pdb
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\EPOS.Domain.pdb
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.csproj.AssemblyReference.cache
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\rpswa.dswa.cache.json
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.AssemblyInfoInputs.cache
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.AssemblyInfo.cs
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.csproj.CoreCompileInputs.cache
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.MvcApplicationPartsAssemblyInfo.cs
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -128,4 +137,4 @@ D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\refint\EPOS.API.dll
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.pdb
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.genruntimeconfig.cache
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\ref\EPOS.API.dll
-D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.sourcelink.json
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\BCrypt-Net-Next.dll

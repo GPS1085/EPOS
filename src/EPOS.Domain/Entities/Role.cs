@@ -1,0 +1,14 @@
+﻿using EPOS.Domain.Common;
+
+namespace EPOS.Domain.Entities;
+
+public class Role : AuditableEntity
+{
+    public string Name { get; set; } = string.Empty;
+
+    public string Description { get; set; } = string.Empty;
+
+    public bool IsSystemRole { get; set; }
+
+    public bool IsActive { get; set; } = true;
+}

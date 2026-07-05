@@ -10,9 +10,9 @@ D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.G
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.AssemblyInfoInputs.cache
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.AssemblyInfo.cs
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.sourcelink.json
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Inf.2D6FE110.Up2Date
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.dll
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\refint\EPOS.Infrastructure.dll
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.pdb
 D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\ref\EPOS.Infrastructure.dll
-D:\Projects\EPOS\src\EPOS.Infrastructure\obj\Debug\net10.0\EPOS.Infrastructure.sourcelink.json

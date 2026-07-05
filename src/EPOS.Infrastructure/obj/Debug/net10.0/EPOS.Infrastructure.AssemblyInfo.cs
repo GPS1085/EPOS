@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EPOS.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a538303c2147890ac4bc7b7d78f3cc82908bbc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88c6842116ec5582e5d5b5edcb492281f5b7817")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPOS.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPOS.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

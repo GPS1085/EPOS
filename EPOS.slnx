@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="src/EPOS.API/EPOS.API.csproj" Id="7cbc1336-07ba-4412-bb9d-7688aaf66b23" />
   <Project Path="src/EPOS.Application/EPOS.Application.csproj" Id="73b5b1f2-f311-422b-bcd4-65472c685cbf" />
   <Project Path="src/EPOS.Domain/EPOS.Domain.csproj" Id="5b408c60-f3b8-4ee0-8f45-edbc079b107c" />
