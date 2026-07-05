@@ -10,4 +10,9 @@
     <ProjectReference Include="..\EPOS.Domain\EPOS.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Authentication\Commands\" />
+    <Folder Include="Authentication\Queries\" />
+  </ItemGroup>
+
 </Project>

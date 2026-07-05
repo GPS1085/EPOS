@@ -138,3 +138,4 @@ D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.pdb
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\EPOS.API.genruntimeconfig.cache
 D:\Projects\EPOS\src\EPOS.API\obj\Debug\net10.0\ref\EPOS.API.dll
 D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\BCrypt-Net-Next.dll
+D:\Projects\EPOS\src\EPOS.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll

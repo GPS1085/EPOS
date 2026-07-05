@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EPOS.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88c6842116ec5582e5d5b5edcb492281f5b7817")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6ee33b359e25a3ef00453bc59119f789347249d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPOS.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPOS.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

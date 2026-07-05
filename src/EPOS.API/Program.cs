@@ -1,4 +1,5 @@
 using EPOS.Persistence.Context;
+using EPOS.Persistence.Seed;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,12 @@ builder.Services.AddDbContext<EPOSDbContext>(options =>
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<EPOSDbContext>();
+
+    await SeedRunner.SeedAsync(db);
+}
 
 if (app.Environment.IsDevelopment())
 {
