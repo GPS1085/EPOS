@@ -3,6 +3,7 @@ using System;
 using EPOS.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EPOS.Persistence.Migrations
 {
     [DbContext(typeof(EPOSDbContext))]
-    partial class EPOSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260706080751_IdentityEnhancement")]
+    partial class IdentityEnhancement
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

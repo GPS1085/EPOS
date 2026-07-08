@@ -8,9 +8,5 @@ public abstract class BaseEntity
 
     public DateTime? ModifiedOn { get; set; }
 
-    public Guid? CreatedBy { get; set; }
-
-    public Guid? ModifiedBy { get; set; }
-
     public bool IsDeleted { get; set; } = false;
 }

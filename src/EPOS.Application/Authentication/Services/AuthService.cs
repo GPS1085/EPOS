@@ -54,33 +54,28 @@ public class AuthService : IAuthService
             };
         }
 
-        // Check if account is active
+        // Account inactive
         if (!user.IsActive)
         {
             return new LoginResponse
             {
                 Success = false,
-                Message = "Your account is inactive. Please contact Administrator."
+                Message = "Your account is inactive."
             };
         }
 
-        // Check if account is locked
+        // Account locked
         if (user.IsLocked)
         {
             return new LoginResponse
             {
                 Success = false,
-                Message = "Your account has been locked. Please contact Administrator."
+                Message = "Your account has been locked."
             };
         }
 
         // Verify Password
-        bool passwordValid =
-            _passwordHasher.VerifyPassword(
-                request.Password,
-                user.PasswordHash);
-
-        if (!passwordValid)
+        if (!_passwordHasher.VerifyPassword(request.Password, user.PasswordHash))
         {
             return new LoginResponse
             {
@@ -89,11 +84,36 @@ public class AuthService : IAuthService
             };
         }
 
-        // JWT Generation comes next
+        // Build JWT User Info
+        var jwtUser = new JwtUserInfo
+        {
+            UserId = user.Id,
+            OrganizationId = user.OrganizationId,
+            EmployeeCode = user.EmployeeCode,
+            Email = user.Email,
+            MobileNumber = user.MobileNumber,
+            UserType = user.UserType.ToString(),
+            Roles = user.UserRoles
+                        .Where(x => x.Role != null)
+                        .Select(x => x.Role!.Name)
+                        .ToList()
+        };
+
+        // Generate JWT
+        var token = _jwtService.GenerateToken(jwtUser);
+
+        // Update Last Login
+        user.LastLoginOn = DateTime.UtcNow;
+
+        await _userRepository.SaveChangesAsync();
+
         return new LoginResponse
         {
-            Success = false,
-            Message = "Password verification successful."
+            Success = true,
+            Token = token,
+            RefreshToken = string.Empty,
+            Expiry = DateTime.UtcNow.AddMinutes(60), // We'll improve this later
+            Message = "Login successful."
         };
     }
 }

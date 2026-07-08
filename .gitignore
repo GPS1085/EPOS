@@ -1,12 +1,9 @@
-# Visual Studio
-.vs/
-
-# Build
+# Build folders
 bin/
 obj/
 
-# VS Code
-.vscode/
+# Visual Studio
+.vs/
 
 # Rider
 .idea/
@@ -18,6 +15,21 @@ obj/
 # Logs
 *.log
 
-# OS
+# OS files
 Thumbs.db
 Desktop.ini
+
+# Publish
+publish/
+
+# NuGet
+packages/
+
+# Test Results
+TestResults/
+
+# Node
+node_modules/
+
+# Environment files
+.env

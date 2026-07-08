@@ -32,6 +32,12 @@ public class EPOSDbContext : DbContext
     public DbSet<Department> Departments => Set<Department>();
     public DbSet<Designation> Designations => Set<Designation>();
     public DbSet<UserPosting> UserPostings => Set<UserPosting>();
+    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+    public DbSet<LoginHistory> LoginHistories => Set<LoginHistory>();
+
+    public DbSet<UserSession> UserSessions => Set<UserSession>();
+
+    public DbSet<PasswordHistory> PasswordHistories => Set<PasswordHistory>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

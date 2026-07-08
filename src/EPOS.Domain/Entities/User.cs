@@ -51,5 +51,20 @@ public class User : AuditableEntity
     // ===== Political Posting =====
 
     public ICollection<UserPosting> Postings { get; set; }
-        = new List<UserPosting>();
+    = new List<UserPosting>();
+
+    public ICollection<UserRole> UserRoles { get; set; }
+        = new List<UserRole>();
+    public ICollection<RefreshToken> RefreshTokens { get; set; }
+    = new List<RefreshToken>();
+
+    public ICollection<LoginHistory> LoginHistories { get; set; }
+    = new List<LoginHistory>();
+
+    public ICollection<UserSession> UserSessions { get; set; }
+        = new List<UserSession>();
+
+    public ICollection<PasswordHistory> PasswordHistories { get; set; }
+        = new List<PasswordHistory>();
+
 }
