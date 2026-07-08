@@ -13,7 +13,7 @@ public static class SeedRunner
         // await DepartmentSeeder.SeedAsync(context);
         // await DesignationSeeder.SeedAsync(context);
         // await RoleSeeder.SeedAsync(context);
-        // await PermissionSeeder.SeedAsync(context);
+         await PermissionSeeder.SeedAsync(context);
         // await AdminSeeder.SeedAsync(context);
     }
 }

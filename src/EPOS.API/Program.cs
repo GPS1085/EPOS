@@ -1,3 +1,12 @@
+using EPOS.Application.States.Interfaces;
+using EPOS.Application.States.Services;
+using EPOS.Persistence.Repositories.States;
+using EPOS.Application.Organization.Interfaces;
+using EPOS.Application.Organization.Services;
+using EPOS.Persistence.Repositories.Organizations;
+using EPOS.Application.Permissions.Interfaces;
+using EPOS.Application.Permissions.Services;
+using EPOS.Persistence.Repositories.Permissions;
 using EPOS.Application.Roles.Services;
 using EPOS.Application.Authentication.Configurations;
 using EPOS.Application.Authentication.Interfaces;
@@ -63,6 +72,12 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IOrganizationRepository, OrganizationRepository>();
+builder.Services.AddScoped<IOrganizationService, OrganizationService>();
+builder.Services.AddScoped<IStateRepository, StateRepository>();
+builder.Services.AddScoped<IStateService, StateService>();
 
 var app = builder.Build();
 

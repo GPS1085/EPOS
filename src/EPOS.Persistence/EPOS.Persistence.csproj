@@ -23,9 +23,7 @@
   <ItemGroup>
     <Folder Include="Repositories\Dashboard\" />
     <Folder Include="Repositories\Political\" />
-    <Folder Include="Repositories\Permissions\" />
     <Folder Include="Repositories\Organization\" />
-    <Folder Include="Repositories\Roles\" />
     <Folder Include="Repositories\Users\" />
   </ItemGroup>
 

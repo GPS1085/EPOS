@@ -20,6 +20,10 @@ public class EPOSDbContext : DbContext
     public DbSet<Permission> Permissions => Set<Permission>();
     public DbSet<UserRole> UserRoles => Set<UserRole>();
     public DbSet<RolePermission> RolePermissions => Set<RolePermission>();
+    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+    public DbSet<LoginHistory> LoginHistories => Set<LoginHistory>();
+    public DbSet<UserSession> UserSessions => Set<UserSession>();
+    public DbSet<PasswordHistory> PasswordHistories => Set<PasswordHistory>();
 
     // Political Geography
     public DbSet<State> States => Set<State>();
@@ -28,20 +32,24 @@ public class EPOSDbContext : DbContext
     public DbSet<Ward> Wards => Set<Ward>();
     public DbSet<Booth> Booths => Set<Booth>();
 
-    // People
+    // Organization Structure
     public DbSet<Department> Departments => Set<Department>();
     public DbSet<Designation> Designations => Set<Designation>();
     public DbSet<UserPosting> UserPostings => Set<UserPosting>();
-    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
-    public DbSet<LoginHistory> LoginHistories => Set<LoginHistory>();
-
-    public DbSet<UserSession> UserSessions => Set<UserSession>();
-
-    public DbSet<PasswordHistory> PasswordHistories => Set<PasswordHistory>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+
+        // ==========================
+        // Organization
+        // ==========================
+
+        modelBuilder.Entity<State>()
+            .HasOne(s => s.Organization)
+            .WithMany()
+            .HasForeignKey(s => s.OrganizationId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         // ==========================
         // Political Geography
@@ -72,7 +80,7 @@ public class EPOSDbContext : DbContext
             .OnDelete(DeleteBehavior.Restrict);
 
         // ==========================
-        // Department
+        // Department & Designation
         // ==========================
 
         modelBuilder.Entity<Designation>()
